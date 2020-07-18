@@ -1,0 +1,20 @@
+{
+  "name": "nutrilav-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/app.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn --transpile-only ./app/app.ts",
+    "start": "tsc && node ./build/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.7",
+    "express": "^4.17.1",
+    "ts-node-dev": "^1.0.0-pre.52",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {}
+}
